@@ -1,0 +1,13 @@
+	# Email that will be notified of downtime
+target_email=jacksonnew22@gmail.com
+	# Email that will send the email notifications
+sender_email=cpsc4240@gmail.com
+	# App password for sender_email (Not regular password. Must be configured as an app password through gmail settings)
+app_password=yaxafiwrnosuoqkw
+	# Amount of time in between checks to see if the server is down in seconds
+polling_interval=5
+	# IP of server to be monitored. Only needed for foreign_monitor.py
+server_ip=10.9.0.5
+	# Proccess name of the server. Only needed for local_monitor.py
+process_name=python3 flask_server.py
+
