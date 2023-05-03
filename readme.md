@@ -31,22 +31,17 @@ git clone https://github.com/jackson-new/Watchtower-4240.git
 Before you can use Watchtower, you need to configure it by editing the `config.txt` file. Here's an example configuration file:
 
 ```
-# Email that will be notified of downtime
+  # Email that will be notified of downtime
 target_email=target@gmail.com
-
-# Email that will send the email notifications
+  # Email that will send the email notifications
 sender_email=sender@gmail.com
-
-# App password for sender_email (Not regular password. Must be configured as an app password through gmail settings)
+  # App password for sender_email (Not regular password. Must be configured as an app password through gmail settings)
 app_password=abcdefghijklmnop
-
-# Amount of time in between checks to see if the server is down in seconds
+  # Amount of time in between checks to see if the server is down in seconds
 polling_interval=5
-
 # IP of server to be monitored. Only needed for foreign_monitor.py
 server_ip=10.9.0.5
-
-# Proccess name of the server. Only needed for local_monitor.py
+  # Proccess name of the server. Only needed for local_monitor.py
 process_name=python3 flask_server.py
 ```
 
